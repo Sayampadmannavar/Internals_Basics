@@ -1,0 +1,22 @@
+{
+    "experiment_name": "edutrack-completion-days",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 8.796595320718954,
+            "rmse": 12.739106850709751,
+            "r2": 0.599425879605191,
+            "mape": 21.551666330571972
+        },
+        {
+            "name": "RandomForest",
+            "mae": 22.29377999999998,
+            "rmse": 23.509644814969015,
+            "r2": -0.3642597389181801,
+            "mape": 83.63448485544798
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "rmse",
+    "best_metric_value": 12.739106850709751
+}
